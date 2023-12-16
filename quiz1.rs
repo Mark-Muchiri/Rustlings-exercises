@@ -13,11 +13,16 @@
 //
 // No hints this time ;)
 
-// I AM NOT DONE
-
 // Put your function here!
-// fn calculate_price_of_apples {
-
+fn calculate_price_of_apples(apples: i64) -> i64 {
+    if apples > 40 {
+        const PRICE: i64 = 1;
+        return apples * PRICE;
+    } else {
+        const PRICE: i64 = 2;
+        return apples * PRICE;
+    }
+}
 // Don't modify this function!
 #[test]
 fn verify_test() {
