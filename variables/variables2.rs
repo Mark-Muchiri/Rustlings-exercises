@@ -3,9 +3,8 @@
 // Execute `rustlings hint variables2` or use the `hint` watch subcommand for a
 // hint.
 
-
 fn main() {
-    /* 
+    /*
     `i8` is the smallest byte. This means I've bound the size of the value of `x`
      I also added the value
      Note: Here, the bound is the type given to number values
